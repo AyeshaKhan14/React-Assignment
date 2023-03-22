@@ -1,0 +1,13 @@
+.div{
+    /* border:2px solid black; */
+    width:80%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap:20px;
+}
+.div>div{
+    border:2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
